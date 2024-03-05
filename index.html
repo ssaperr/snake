@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- Автор: Алексей Кузякин-->
+<html lang="en">
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Snake Game">
+        <link rel="stylesheet" href="/extra/snake/snake_files/app.css?v=10">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    </head>
+    
+    <body>
+        <div id="app" class="app">
+            <div class="start-screen animated bounceIn">
+                <div class="start-inWrap">
+                     <h2>🐍</h2>
+
+                    <div class="options">
+                         <h3>Выберите сложность:</h3>
+
+                        <p class="end-score"></p>
+                        <button data-difficulty="100" class="active">Лёгкая</button>
+                        <button data-difficulty="75">Средняя</button>
+                        <button data-difficulty="50">Тяжёлая</button>
+                    </div>
+                    <button class="play-btn">Играть!</button>
+                </div>
+            </div>
+            <canvas></canvas>
+            <div class="score">0</div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute; width: 0; height: 0" aria-hidden="true" id="__SVG_SPRITE_NODE__"></svg>
+        <script src="/extra/snake/snake_files/app.js?v=11"></script>
+    </body>
+</html>
