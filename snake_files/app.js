@@ -34,8 +34,8 @@ class SnakeGame {
     };
     
     this.soundEffects = {
-      score: new Audio('/extra/snake/snake_files/score.mp3'),
-      gameOver: new Audio('/extra/snake/snake_files/game-over.mp3')
+      score: new Audio('/snake_files/score.mp3'),
+      gameOver: new Audio('/snake_files/game-over.mp3')
     };
 
     this.setUpGame();
